@@ -1,0 +1,13 @@
+.app-font-icon.clickable-false {
+  cursor: unset !important;
+}
+
+.app-font-icon {color: inherit}
+
+.app-font-icon:before {
+  color: currentColor;
+}
+
+
+
+

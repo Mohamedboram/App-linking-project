@@ -1,0 +1,71 @@
+@media (max-width: 767px) {
+
+  .auth-page .form-wrapper { width: 100%; padding: 0 32px; }
+
+  .auth-page img.logo { align-self: start; padding: 32px 32px 0; margin-bottom: 64px; }
+
+  body:has(.auth-page) { background: white; }
+
+  .auth-page h2.form-title { font-size: 2.4rem; margin-bottom: 8px; }
+
+  .auth-page .login-hint { display: flex; flex-direction: column; }
+
+  .auth-page { padding-bottom: 40px; }
+
+  .app { padding: 0; }
+
+  .header .list li a > *:not(.app-font-icon) { display: none; }
+
+  .header .list li a { padding: 11px 17px; }
+
+  .header .list li a .app-font-icon { font-size: 2rem !important; }
+
+  button.preview-button.secondary-button { display: flex; align-items: center; justify-content: center; min-width: unset; width: 42px; height: 42px; }
+
+  .header .button-wrapper { display: flex; justify-content: flex-end; align-items: center; }
+
+  button.primary-button.logout-button { min-width: unset; width: 42px; height: 42px; display: flex; align-items: center; justify-content: center; margin-inline-start: 10px; }
+
+  .header { padding: 16px; }
+
+  .preview-area { display: none; }
+
+  .main-content { width: calc(100% - 32px); margin-inline: auto; margin-bottom: 16px; }
+
+  .main { margin-top: 16px; }
+
+  .header .list { gap: unset; }
+
+  .inner-container { padding: 24px 24px 0; }
+
+  .inner-container > .heading-m { margin-bottom: 8px; }
+
+  .save-button-wrapper { margin-top: 24px; padding-bottom: 30px; padding-inline: 16px; }
+
+  .empty-state-wrapper .empty-state { padding: 46px 0 24px; }
+
+  .save-button-wrapper .save-button { width: 100%; }
+
+  .upload-image > span.body-m { width: auto; margin-bottom: 16px; }
+
+  .upload-wrapper.image-uploaded { width: auto; flex-direction: column; align-items: start; }
+
+  .upload-image { flex-direction: column; align-items: start; }
+
+  .upload-wrapper span.body-s { margin: 24px 0 0; }
+
+  .form .input-wrapper { flex-direction: column; align-items: start; }
+
+  .form .input-wrapper input { width: 100%; margin: unset; }
+
+  .preview-page .preview-wrapper { height: auto; background-color: unset; border: unset; padding: 16px 24px; }
+
+  .preview-page .preview-content { margin-top: unset; box-shadow: unset; padding: 60px 0 0; max-width: unset; width: 75%; min-width: 237px; }
+
+  body:has(.preview-page) { background-color: white; }
+
+  .preview-page .preview-header { padding: 0; }
+
+  .toast-wrapper { width: 90vw; line-height: 1.2; }
+
+}
